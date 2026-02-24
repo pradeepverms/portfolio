@@ -1,106 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pradip Kumar Verma | AI Developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pradip Kumar Verma | AI / ML Engineer</title>
+
+  <!-- SEO -->
+  <meta name="description" content="AI/ML Engineer portfolio of Pradip Kumar Verma. Projects include Resume Ranking Engine, Multi-Document RAG Chatbot, and ML APIs." />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
 
-<!-- HERO -->
-<section class="hero">
-    <h1>Pradip Kumar Verma</h1>
-    <h2>AI & Data Science Developer</h2>
-    <p>
-        I build production-oriented AI & ML systems, focusing on deployable models,
-        explainable AI, and real-world problem solving.
-    </p>
+  <!-- ================= HERO ================= -->
+  <header class="hero">
+    <div class="container">
+      <h1>Pradip Kumar Verma</h1>
+      <h2>AI / ML Engineer · B.Tech AI & Data Science</h2>
 
-    <div class="links">
+      <p class="hero-text">
+        I build end-to-end machine learning systems — from data preprocessing
+        and model training to deployment as production-ready APIs.
+        <br><br>
+        My work focuses on Resume Ranking systems, NLP pipelines,
+        Retrieval-Augmented Generation (RAG) chatbots,
+        and backend ML services using Python, FastAPI, and Flask.
+      </p>
+
+      <div class="hero-links">
         <a href="https://github.com/pradeepverms" target="_blank">GitHub</a>
-        <a href="assets/resume.pdf" target="_blank">Resume</a>
+        <a href="assets/resume.pdf" target="_blank" class="primary">Download Resume</a>
         <a href="https://www.linkedin.com/in/pradip-kumar-verma-244592313/" target="_blank">LinkedIn</a>
       </div>
-</section>
-
-<!-- SKILLS -->
-<section class="skills">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-        <div class="skill-card">
-            <h3>Programming</h3>
-            <p>Python, SQL</p>
-        </div>
-        <div class="skill-card">
-            <h3>AI / ML</h3>
-            <p>Machine Learning, NLP, RAG, Embeddings</p>
-        </div>
-        <div class="skill-card">
-            <h3>Backend</h3>
-            <p>Flask, FastAPI, REST APIs</p>
-        </div>
-        <div class="skill-card">
-            <h3>Tools</h3>
-            <p>Git, GitHub, Jupyter, VS Code</p>
-        </div>
     </div>
-</section>
+  </header>
 
-<!-- PROJECTS -->
-<section class="projects">
-    <h2>Projects</h2>
+  <!-- ================= PROJECTS ================= -->
+  <section class="section">
+    <div class="container">
+      <h3 class="section-title">Projects</h3>
 
-    <div class="project-card">
-        <h3>AI Resume Ranking Engine</h3>
+      <!-- Resume Ranker -->
+      <div class="project-card featured">
+        <h4>AI Resume Ranking Engine</h4>
         <p>
-            An AI-based resume screening system that ranks resumes against job descriptions
-            using semantic similarity instead of keyword matching. Designed for explainable
-            and unbiased candidate scoring.
+          Designed an AI-based resume screening system that ranks resumes using
+          semantic similarity instead of keyword matching, addressing
+          limitations of traditional ATS systems.
         </p>
-        <p class="tech">Tech: Python, NLP, Embeddings, Machine Learning</p>
-        <a href="https://github.com/pradeepverms/AI-Resume-Ranking-Engine" target="_blank">GitHub →</a>
-    </div>
+        <p class="tech">
+          <strong>Tech:</strong> Python, NLP, Sentence Embeddings, FastAPI
+        </p>
+        <a href="https://github.com/pradeepverms/AI-Resume-Ranking-Engine" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
 
-    <div class="project-card">
-        <h3>Multi-Document RAG Chatbot</h3>
+      <!-- RAG Chatbot -->
+      <div class="project-card">
+        <h4>Multi-Document RAG Chatbot (Local LLM)</h4>
         <p>
-            A local Retrieval-Augmented Generation chatbot that answers queries from multiple
-            documents while reducing hallucinations through retrieval-based grounding.
+          Built a local Retrieval-Augmented Generation chatbot capable of
+          answering queries from multiple documents using vector search
+          and offline LLM inference.
         </p>
-        <p class="tech">Tech: Python, RAG, ChromaDB, Ollama (LLaMA 3)</p>
-        <a href="https://github.com/pradeepverms/multi-document-rag-chatbot" target="_blank">GitHub →</a>
-    </div>
+        <p class="tech">
+          <strong>Tech:</strong> Python, RAG, ChromaDB, Ollama (LLaMA 3)
+        </p>
+        <a href="https://github.com/pradeepverms/multi-document-rag-chatbot" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
 
-    <div class="project-card">
-        <h3>Loan Approval ML System</h3>
+      <!-- Loan Approval -->
+      <div class="project-card">
+        <h4>Loan Approval ML System</h4>
         <p>
-            An end-to-end machine learning system that predicts loan approval using structured
-            data, feature engineering, and model evaluation, deployed as a REST API.
+          Developed an end-to-end machine learning pipeline to predict loan
+          approval outcomes using structured financial data with proper
+          feature engineering and evaluation.
         </p>
-        <p class="tech">Tech: Python, Scikit-learn, Flask</p>
-        <a href="https://github.com/pradeepverms/loan-approval-ml-api" target="_blank">GitHub →</a>
+        <p class="tech">
+          <strong>Tech:</strong> Python, Scikit-learn, Flask
+        </p>
+        <a href="https://github.com/pradeepverms/loan-approval-ml-api" target="_blank">
+          View on GitHub →
+        </a>
+      </div>
+
     </div>
-</section>
+  </section>
 
-<!-- ABOUT -->
-<section class="about">
-    <h2>About Me</h2>
-    <p>
-        Artificial Intelligence & Data Science undergraduate with hands-on experience
-        building real-world ML systems and deploying them as usable products.
-        Interested in AI/ML Engineer and Data Science internship roles.
-    </p>
-</section>
+  <!-- ================= SKILLS ================= -->
+  <section class="section alt">
+    <div class="container">
+      <h3 class="section-title">Skills</h3>
 
-<!-- CONTACT -->
-<section class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:PV685528@gmail.com">PV685528@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/pradeepverms" target="_blank">github.com/pradeepverms</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/pradip-kumar-verma-244592313/" target="_blank">
-        linkedin.com/in/pradip-kumar-verma</a></p>
-</section>
+      <ul class="skills-list">
+        <li><strong>Languages:</strong> Python, SQL</li>
+        <li><strong>ML & Data:</strong> Pandas, NumPy, Scikit-learn</li>
+        <li><strong>NLP & LLMs:</strong> Embeddings, RAG, ChromaDB, LLaMA</li>
+        <li><strong>Backend:</strong> FastAPI, Flask, REST APIs</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code, Jupyter</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section contact">
+    <div class="container">
+      <h3 class="section-title">Contact</h3>
+
+      <p>📍 Gujarat, India · Open to Remote</p>
+      <p>
+        📧 <a href="mailto:PV685528@gmail.com">PV685528@gmail.com</a>
+      </p>
+      <p>
+        💻 <a href="https://github.com/pradeepverms" target="_blank">
+          github.com/pradeepverms
+        </a>
+      </p>
+      <p>
+        🔗 <a href="https://www.linkedin.com/in/pradip-kumar-verma-244592313/" target="_blank">
+          linkedin.com/in/pradip-kumar-verma
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container">
+      <p>©️ 2026 Pradip Kumar Verma · Built for real-world ML systems.</p>
+    </div>
+  </footer>
 
 </body>
 </html>
